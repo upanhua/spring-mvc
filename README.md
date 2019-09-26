@@ -1,0 +1,2 @@
+# spring-mvc
+该项目是通过自己去实现一个简易的spring-mvc的功能，主要步骤为：1、在中央处理器MyDispatcherServlet的init方法里面，获取配置文件路径，解析xml文件获取扫描包路径。2、扫描整个配置的扫描包下的文件，逐个查看是否是添加了@Controoler、@requestMapping等注解，并进行将路径和method保存到map中。3、在实际的dopost方法里面，通过访问 的uri去map中获取method方法，进行执行相关的操作
