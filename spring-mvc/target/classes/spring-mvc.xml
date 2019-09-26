@@ -1,0 +1,5 @@
+<!-- 自定义spring-mvc的配置信息 -->
+<beans>
+    <packagescan pacakage="com">
+    </packagescan>
+</beans>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-mvc
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: lh259518
+Implementation-Vendor-Id: com.leyou.parent
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_201
+Main-Class: ${start-class}
+
